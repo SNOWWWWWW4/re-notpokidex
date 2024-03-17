@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/* evolution bg styling */
+.evolutionDisplay{
+  background-color: #313131;
+  color:white;
+  padding-top: 2%;
+  padding-left: 2%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 75px;
+  height: 35vh;
+}
+
+/* random button styling*/
+.btnColor{
+  background-color: #EE6B2F;
+  border-color: #EE6B2F;
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 1.5%;
+  box-shadow: 0 7px #ababab;
+  cursor: pointer;
+}
+
+.btnColor p {
+  color: white;
+}
+
+/* random button's hovering effect */
+.btnColor:hover{
+  background-color: #ee6b2fce;
+  border-color:black;
+  border-width: 1px;
+  border-width: 3px solid;
+}
+
+.btnColor:hover p{
+  color:black;
+  font-size: larger;
+}
+
+/* random button's press down effect */
+.btnColor:active {
+  background-color: #38bdf8;
+  box-shadow: 0 2px #636262;
+  transform: translateY(4px);
+}
+
+.btnColor:active p{
+  color:white;
+}
+
+/* Navbar img's hover effect */
+.navImg:hover img{
+  height: 50px;
+  width: 50px;
+}
+
+/* navbar favorite's hover effect */
+.navText:hover a{
+  color:white;
+}
+
+.headerImg {
+  height: 40px;
+  width: 40px;
+}
+
+/* starImg hover effect */
+.headerImg:hover{
+  transform: translateY(4px);
+}
